@@ -45,6 +45,7 @@ namespace Actividad_Final_Corte1
             this.btn_modulo1.TabIndex = 0;
             this.btn_modulo1.Text = "Modulo 1";
             this.btn_modulo1.UseVisualStyleBackColor = true;
+            this.btn_modulo1.Click += new System.EventHandler(this.btn_modulo1_Click);
             // 
             // btn_modulo2
             // 

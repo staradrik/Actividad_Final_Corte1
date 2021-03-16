@@ -17,5 +17,9 @@ namespace Actividad_Final_Corte1
             InitializeComponent();
         }
 
+        private void btn_modulo1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -37,9 +37,9 @@ namespace Actividad_Final_Corte1
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            ContenidoModulos CModulos = new ContenidoModulos();
-            this.Hide();
-            CModulos.Show();
+         //   ContenidoModulos CModulos = new ContenidoModulos();
+          //  this.Hide();
+           //CModulos.Show();
         }
     }
 }

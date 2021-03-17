@@ -50,5 +50,15 @@ namespace Actividad_Final_Corte1
             this.Hide();
             Contemd.Show();
         }
+
+        private void txtN2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Modulo1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

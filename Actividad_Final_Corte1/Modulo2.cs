@@ -17,18 +17,23 @@ namespace Actividad_Final_Corte1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //variables
             Double Base;
             Double Altura;
+            Double Resultado;
+
+            //Convertir
             Base = Convert.ToDouble(txtbase.Text);
             Altura = Convert.ToDouble(txtAltura.Text);
-            Double Resultado;
+           //Operacion para obtener el área de un cuadrado
             Resultado = Base * Altura;
             txtArea.Text = Convert.ToString(Resultado);
 
         }
-
+        
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
+            //Limpiar cajas de texto
             txtbase.Clear();
             txtAltura.Clear();
             txtArea.Clear();
@@ -37,12 +42,18 @@ namespace Actividad_Final_Corte1
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
+            //Regresar
           ContenidoModulos CModulos = new ContenidoModulos();
             this.Hide();
            CModulos.Show();
         }
 
         private void Modulo2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

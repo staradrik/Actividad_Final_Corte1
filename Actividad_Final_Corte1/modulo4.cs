@@ -25,7 +25,10 @@ namespace Actividad_Final_Corte1
                 String Resul;
                 Resul = txtResultado.Text;
                 Resul += Palabra[x];
-               
+
+                txtResultado.Text = (Resul);
+
+
             }
             
         }

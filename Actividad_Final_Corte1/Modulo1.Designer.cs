@@ -99,7 +99,7 @@ namespace Actividad_Final_Corte1
             this.btnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegresar.Font = new System.Drawing.Font("Showcard Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRegresar.Location = new System.Drawing.Point(414, 51);
+            this.btnRegresar.Location = new System.Drawing.Point(447, 57);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(90, 23);
             this.btnRegresar.TabIndex = 5;
@@ -144,7 +144,7 @@ namespace Actividad_Final_Corte1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(516, 322);
+            this.ClientSize = new System.Drawing.Size(639, 338);
             this.Controls.Add(this.btn_Limpiar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtNM);

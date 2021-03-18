@@ -30,6 +30,18 @@ namespace Actividad_Final_Corte1
             this.Hide();
             md3.Show();
         }
+
+        private void btn_modulo6_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btn_modulo5_Click(object sender, EventArgs e)
+        {
+            Modulo5 md5 = new Modulo5();
+            this.Hide();
+            md5.Show();
+        }
     }
     
 }

@@ -35,27 +35,28 @@ namespace Actividad_Final_Corte1
         }
 
         private void btnVerificar_Click(object sender, EventArgs e)
-        {
-            int n = 1;
-            String exp;
-            bool pangrama = true;
-            for (int i = 0; i < n; i++, pangrama = true)
-            {
-                exp = txtFrase.Text;
-                for (char ascii = 'A'; ascii <= 'Z'; ascii++)
+        {        
+                int n = 1;
+                String exp;
+                bool pangrama = true;
+                for (int i = 0; i < n; i++, pangrama = true)
                 {
-                    if (!exp.ToUpper().Contains("" + ascii))
+                    exp = txtFrase.Text;
+                //al poner comillas simples se indica que lo que hay entre las comillas simples es un único carácter.
+                for (char ascii = 'A'; ascii <= 'Z'; ascii++)//valor ASCII de todos los alfabetos (de la A a la Z), podemos establecer los valores en el ciclo 
+                {//no modifica el valor de la instancia actual. En su lugar, devuelve una nueva cadena en la que todos los caracteres de la instancia actual se convierten a mayúsculas.
+                    if (!exp.ToUpper().Contains("" + ascii)) //comparador ordinal
                     {
-                        pangrama = false;
+                            pangrama = false;
 
-                        break;
+                            break;
+                        }
                     }
-                }
-                txtPangrama.Text = Convert.ToString((pangrama ? "SI" : "NO"));
-                gd_datos.Rows.Add(txtFrase.Text, txtPangrama.Text);
+                    txtPangrama.Text = Convert.ToString((pangrama ? "SI" : "NO"));
+                    gd_datos.Rows.Add(txtFrase.Text, txtPangrama.Text);
 
+                }
             }
-        }
 
         private void gd_datos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

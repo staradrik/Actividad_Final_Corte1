@@ -45,7 +45,7 @@ namespace Actividad_Final_Corte1
                 //al poner comillas simples se indica que lo que hay entre las comillas simples es un único carácter.
                 for (char ascii = 'A'; ascii <= 'Z'; ascii++)//valor ASCII de todos los alfabetos (de la A a la Z), podemos establecer los valores en el ciclo 
                 {//no modifica el valor de la instancia actual. En su lugar, devuelve una nueva cadena en la que todos los caracteres de la instancia actual se convierten a mayúsculas.
-                    if (!exp.ToUpper().Contains("" + ascii)) //comparador ordinal
+                    if (!exp.ToUpper().Contains("" + ascii)) //comparador ordinal,no distinga entre mayúsculas y minúsculas
                     {
                             pangrama = false;
 

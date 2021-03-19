@@ -151,6 +151,7 @@ namespace Actividad_Final_Corte1
             this.Controls.Add(this.label1);
             this.Name = "Modulo3";
             this.Text = "Modulo3";
+            this.Load += new System.EventHandler(this.Modulo3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

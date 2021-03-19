@@ -36,5 +36,10 @@ namespace Actividad_Final_Corte1
             this.Hide();
             Contemd.Show();
         }
+
+        private void Modulo3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
